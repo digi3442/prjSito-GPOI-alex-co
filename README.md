@@ -14,8 +14,8 @@ Questo sito web statico raccoglie i progetti realizzati dagli studenti della Cla
 1. Il team leader fa un **fork** di questo repository
 2. Clona il tuo fork:
    ```bash
-   git clone https://github.com/<tuo-utente>/portfolio-site.git
-   cd portfolio-site
+   git clone https://github.com/<tuo-utente>/prjSito-GPOI.git
+   cd prjSito-GPOI
 3. Anche gli altri membri del gruppo fanno un fork della repository del team leader
 4. Il team leader gestirà le richieste di **Pull Request** che arrivano dai suoi compagni
 
