@@ -75,4 +75,3 @@ function conversioneMetriPollci(misurabase, misuradesiderata, valoriAttuali) {
 //let counter = 0;
 //while(conversione){
 
-}
