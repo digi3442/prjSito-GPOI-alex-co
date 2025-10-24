@@ -1,29 +1,88 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/prjSito-GPOI-alex-co/ConvertitoreUnità/Style.css" type="text/css">
-    
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+    <link rel="stylesheet" href="Style.css" type="text/css">     
     <title>Convertitore di Unità</title>
 </head>
-
 <body>
-        <div id="principale">
-            <div class="titolo">
-                <h1>
-                    CONVERTITORE DI UNITA'
-                </h1>
-            </div>
+    <div id="principale">
+        <h1>CONVERTITORE DI UNITÀ</h1>
 
-            <div class="unita">
-                <input type="text">
-                
+        <div class="input-section">
+            <input type="text" placeholder="Inserisci valore">
+            <label for="unitaDa">Unità di partenza</label>
+            <select name="unitaDa" id="unitaDa">
+                <option value="cm">centimetri (cm)</option>
+                    <option value="dm">decimetri (dm)</option>
+                    <option value="mm">millimetri (mm)</option>
+                    <option value="m">metri (m)</option>
+                    <option value="Dm">decametri (dcm)</option>
+                    <option value="hm">ettometri (hm)</option>
+                    <option value="km">kilometri (km)</option> 
+                    <option value="in">pollici (inches)</option>
+                    <option value="ft">piedi (feet)</option>
+                    <option value="yd">iarde (yards)</option>
+                    <option value="mg">milligrammi (mg)</option>
+                    <option value="g">grammi (g)</option> 
+                    <option value="kg">kilogrammi (kg)</option>
+                    <option value="oz">oncie (ounces)</option>
+                    <option value="lb">libbre (pounds)</option>
+                    <option value="ml">millilitri (ml)</option>
+                    <option value="cl">centilitri (cl)</option>
+                    <option value="dl">decilitri (dl)</option>
+                    <option value="l">litri (l)</option>
+                    <option value="hl">ettolitri (hl)</option>
+                    <option value="tsp">cucchiaini (teaspoons)</option>
+                    <option value="tbsp">cucchiai (tablespoons)</option>
+                    <option value="floz">oncie liquide (fluid ounces)</option>
+                    <option value="cup">tazze (cups)</option>
+                    <option value="pt">pinte (pints)</option>
+                    <option value="qt">quarti (quarts)</option>
+                    <option value="gal">galloni (gallons)</option>
+            </select>
+        </div>
+
+        <div class="output-section">
+            <label for="unitaA">Converti in</label>
+            <select name="unitaA" id="unitaA">
+                <option value="cm">centimetri (cm)</option>
+                    <option value="dm">decimetri (dm)</option>
+                    <option value="mm">millimetri (mm)</option>
+                    <option value="m">metri (m)</option>
+                    <option value="Dm">decametri (dcm)</option>
+                    <option value="hm">ettometri (hm)</option>
+                    <option value="km">kilometri (km)</option> 
+                    <option value="in">pollici (inches)</option>
+                    <option value="ft">piedi (feet)</option>
+                    <option value="yd">iarde (yards)</option>
+                    <option value="mg">milligrammi (mg)</option>
+                    <option value="g">grammi (g)</option> 
+                    <option value="kg">kilogrammi (kg)</option>
+                    <option value="oz">oncie (ounces)</option>
+                    <option value="lb">libbre (pounds)</option>
+                    <option value="ml">millilitri (ml)</option>
+                    <option value="cl">centilitri (cl)</option>
+                    <option value="dl">decilitri (dl)</option>
+                    <option value="l">litri (l)</option>
+                    <option value="hl">ettolitri (hl)</option>
+                    <option value="tsp">cucchiaini (teaspoons)</option>
+                    <option value="tbsp">cucchiai (tablespoons)</option>
+                    <option value="floz">oncie liquide (fluid ounces)</option>
+                    <option value="cup">tazze (cups)</option>
+                    <option value="pt">pinte (pints)</option>
+                    <option value="qt">quarti (quarts)</option>
+                    <option value="gal">galloni (gallons)</option>
+            </select>
+            <div class = "risp">
+                <label for="unitaA">Conversione</label>
             </div>
-        </div>   
-    
+        </div>
+
+        <button type="button" class="bottone">Converti</button>
+    </div>
 </body>
 
 </html>
